@@ -14,8 +14,11 @@ class Ball(Turtle) :
         y_cordinate = self.ycor()+self.y_move
         self.goto(x_cordinate,y_cordinate)
 
-    def bouce_ball(self):
+    def bounce_Y_ball(self):
         self.y_cordinate *= -1
+
+    def bounce_x_ball(self):
+        self.x_cordinate *= -1
 
 
 
